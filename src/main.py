@@ -4,7 +4,7 @@ user = ""
 print("Welcome to ChatBot")
 print("Type exit to exit the chat")
 
-while user=="exit":
+while user!="exit":
     user = input("> ")
-    Response.determineCategory(user)
+    Response.response(user)
 
